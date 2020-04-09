@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#header-home").removeClass("default"),$(window).scroll(function(){20<$(this).scrollTop()?$("#header-home").addClass("default").fadeIn("fast"):$("#header-home").removeClass("default").fadeIn("fast")})});
